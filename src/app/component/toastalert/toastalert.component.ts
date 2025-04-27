@@ -12,7 +12,7 @@ export class ToastalertComponent {
 
   constructor(private toatrService : ToastrService){}
 
-  showSuccess(){
-    this.toatrService.success('Saved Sucessfull.', 'Success');
-  }
+  // showSuccess(){
+  //   this.toatrService.success('Saved Sucessfull.', 'Success');
+  // }
 }
