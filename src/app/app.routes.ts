@@ -4,6 +4,7 @@ import { EmployeeCreateComponent } from './component/employee-create/employee-cr
 import { EmployeeEditComponent } from './component/employee-edit/employee-edit.component';
 import { EmployeeDetailsComponent } from './component/employee-details/employee-details.component';
 import { NotFoundComponent } from './component/not-found/not-found.component';
+import { ToastalertComponent } from './component/toastalert/toastalert.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'employees', pathMatch: 'full' },
@@ -12,4 +13,5 @@ export const routes: Routes = [
     { path: 'employees/edit/:id', component: EmployeeEditComponent },
     { path: 'employees/:id', component: EmployeeDetailsComponent }, 
     { path: '**', component : NotFoundComponent }, 
+    { path: 'toastr', component: ToastalertComponent}
 ];
